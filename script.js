@@ -11,7 +11,7 @@ const isLocal = window.location.hostname === 'localhost' ||
 // API Configuration
 const API_CONFIG = {
   local: 'http://localhost:3030/api/v1/sql',
-  production: 'http://146.190.242.132/api/v1/sql'
+  production: 'https://146.190.242.132/api/v1/sql'
 };
 
 const API_BASE_URL = isLocal ? API_CONFIG.local : API_CONFIG.production;
